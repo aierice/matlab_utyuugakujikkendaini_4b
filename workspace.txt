@@ -1,0 +1,6 @@
+﻿>> clear
+>> load('jikokureki')
+>> plot(jikokureki(:,1),jikokureki(:,2),jikokureki(:,1),jikokureki(:,3),jikokureki(:,1),jikokureki(:,4))
+>> xlabel('time[s]')
+>> ylabel('ampditude[V]')
+>> legend('no absorber','short absorber','long absorber','location','northwest')
